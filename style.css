@@ -1,0 +1,70 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: url(ed4qx61p8wra1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.calculadora{
+    background-image: url(depositphotos_243360980-stock-photo-old-wall-background-texture.jpg);
+    
+    width: 300px;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 150px rgb(255, 6, 6);
+}
+
+.botoes{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.btn{
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    border-color: rgb(252, 23, 23);
+}
+
+input{
+    width: 295px;
+    height: 45px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    background-image: url(Deus_da_Morte.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+btn:hover{
+    font-weight: bold;
+}
+
+h1{
+    text-align: center;
+    color: azure;
+    box-shadow: 0 0 30 rgb(221, 6, 6);
+}
+
+#display{
+    width: 290px;
+    height: 50px;   
+}
+
+.duplo{
+    grid-column: span 2;
+}

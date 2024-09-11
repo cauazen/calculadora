@@ -9,7 +9,8 @@ body{
     align-items: center;
     flex-direction: column;
     height: 90vh;
-    background-image: url(ed4qx61p8wra1.jpg);
+    background-image: url(Folha_com_o_s22Eterno_Santo_Ber22.webp);
+    
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -17,23 +18,52 @@ body{
 }
 
 .calculadora{
+    margin-top: 100px;
     background-image: url(depositphotos_243360980-stock-photo-old-wall-background-texture.jpg);
-    
     width: 300px;
     border-radius: 20px;
     padding: 20px;
     box-shadow: 0 0 150px rgb(255, 6, 6);
+    animation: pulseShadow 1s infinite;
 }
+
+@keyframes pulseShadow {
+    0% {
+        box-shadow: 0 0 75px rgb(105, 56, 56);
+    }
+    50% {
+        box-shadow: 0 0 175px rgb(187, 25, 25);
+    }
+    100% {
+        box-shadow: 0 0 250px rgba(255, 0, 0, 0.986);
+    }
+    50% {
+        box-shadow: 0 0 75px rgb(105, 56, 56);
+    }
+    0% {
+        box-shadow: 0 0 175px rgb(187, 25, 25);
+    }
+
+
+}
+
+
+
+
+
+
 
 .botoes{
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(4,1fr);
+    color: red;
 }
 
 .btn{
     padding: 20px;
     font-size: 20px;
+    border: 2px solid rgb(252, 23, 23);
     border-radius: 10px;
     border-color: rgb(252, 23, 23);
 }
@@ -43,7 +73,7 @@ input{
     height: 45px;
     margin-bottom: 15px;
     border-radius: 15px;
-    background-image: url(Deus_da_Morte.webp);
+    background-image: url(wp10044579.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -57,7 +87,10 @@ btn:hover{
 h1{
     text-align: center;
     color: azure;
-    box-shadow: 0 0 30 rgb(221, 6, 6);
+    text-shadow: 0 0 10px rgb(221, 6, 6); /* Adiciona sombra ao texto */
+    margin-bottom: 20px; /* Adiciona espaço abaixo do título */
+
+    
 }
 
 #display{
